@@ -12,7 +12,7 @@ function logoutRouting(method, response) {
     response.write(`
         <html>
             <head>
-                <title>Shop – Logout</title>
+                <title>Shop - Logout</title>
             </head>
             <body>
                 <h1>Logout</h1>

@@ -37,7 +37,7 @@ function renderAddProductPage(response) {
     response.write(`
         <html>
             <head>
-                <title>Shop – Add product</title>
+                <title>Shop - Add product</title>
             </head>
             <body>
                 <h1>Add product</h1>
@@ -69,7 +69,7 @@ function renderNewProductPage(response) {
         response.write(`
             <html>
                 <head>
-                    <title>Shop – Newest product</title>
+                    <title>Shop - Newest product</title>
                 </head>
                 <body>
                     <h1>Newest product</h1>

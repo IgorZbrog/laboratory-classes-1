@@ -7,7 +7,7 @@ function requestRouting(request, response) {
     const { url, method } = request;
     const date = new Date().toISOString();
 
-    console.log(`INFO [${date}]: ${method} – ${url}`);
+    console.log(`INFO [${date}]: ${method} - ${url}`);
 
     if (url === "/") {
         homeRouting(method, response);
@@ -19,7 +19,7 @@ function requestRouting(request, response) {
         console.log(`PROCESS [${date}]: logout has been initiated and the application will be closed.`);
         process.exit();
     } else {
-        console.error(`ERROR [${date}]: requested url [${url}] doesn’t exist.`);
+        console.error(`ERROR [${date}]: requested url [${url}] doesnt exist.`);
         response.statusCode = STATUS_CODE.NOT_FOUND;
         response.setHeader("Content-Type", "text/html");
         response.write(`<html><body><h1>404 Not Found</h1></body></html>`);
