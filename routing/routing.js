@@ -32,7 +32,7 @@ const requestRouting = (request, response) => {
     } else if (url === '/logout') {
         logoutRouting(method, response);
     } else if (url === '/kill') {
-        console.log(`PROCESS [${date}]: logout has been initiated and the application will be closed.`);
+        console.log(`PROCESS [${date}]: logout has been initiated and the application will be closed,.`);
         process.exit();
     } else {
         console.log(`ERROR [${date}]: requested url ${url} doesn’t exist.`);
