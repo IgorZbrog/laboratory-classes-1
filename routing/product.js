@@ -14,7 +14,7 @@
 // 🔧 Wyeksportuj funkcję 'productRouting', aby inne moduł mogły jej używać.
 
 const fs = require("fs");
-const STATUS_CODE = require("../constants/statusCode");
+const STATUS_CODE = require('../constants/statusCode.');
 
 function productRouting(request, response) {
     const { url, method } = request;
