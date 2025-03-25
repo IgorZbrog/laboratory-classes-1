@@ -2,4 +2,8 @@
 
 // 🔧 Wyeksportuj PORT, aby inne moduł mogły go używać.
 
-module.exports = { PORT: 3000 };
+const PORT = 3000;
+
+module.exports = {
+  PORT
+};
